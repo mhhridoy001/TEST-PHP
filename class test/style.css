@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+  
+    .checkout{
+      width: 35%;
+      min-height: 90vh;
+      margin: 40px auto;
+      background: #FFFFFF;
+      box-shadow: 1px 0.5px 5px 0.5px;
+    }
+    .checkout-bill{
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      padding: 10px 5px;
+    }
+    .checkout-bill h3{
+      font-family: 'Rosarivo', serif;
+      text-align: center;
+    }
+    .con-box input{
+      width: 100%;
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 10px 8px;
+      outline: 0;
+      border: 1px solid #9291A2;
+    }
+    .con_box_left{
+      width: 48%; 
+      float: left;
+    }
+    .con_box_right{
+      width: 48%;
+      float: right;
+      }
+    .bill_form{
+      margin-top: 10px;
+    }
+    .bill_form select,textarea{
+      width: 100%;
+      padding: 10px 8px;
+      font-size: 12px;
+      font-weight: bold;
+      outline: 0;
+      border: 1px solid #9291A2;
+      margin-top: 8px;
+      color: #9291A2;
+      background: #fff;
+    }
+    .gender{
+      width: 100%;
+      float: left;
+      margin-bottom: 10px;
+    }
+    .gender input{
+      margin-top: 10px;
+    }
+    span{
+      display: inline-block;
+      font-size: 12px;
+      font-weight: bold;
+      color: #9291A2;
+    }
+    .checkbox{
+      margin-top: 10px;
+    }
+    .checkbox input{
+      margin: 7px 0;
+    }
+    .checkbox a{
+      text-decoration: none;
+      color: #25CCF7;
+    }
+    .file{
+      margin: 10px 0;
+    }
+    .file input{
+      padding: 10px;
+    }
+
